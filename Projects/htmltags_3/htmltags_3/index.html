@@ -1,0 +1,71 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Знакомство с HTML тегами. Часть №3</title>
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<form action="#" method="get">
+			<div>
+				<p>Name</p>
+				<input tabindex="1" type="text" name="username" placeholder="Name">
+			</div>
+			<div>
+				<p>Password</p>
+				<input tabindex="2" type="Password" name="Pass" placeholder="Password">
+			</div>
+			<div>
+				<p>Nunber</p>
+				<input tabindex="3" type="tel" name="tel" placeholder="Number">
+			</div>
+			<div>
+				<p>Sex</p>
+					<div>
+						<input tabindex="4" type="radio" name="gender" value="male">Male
+					</div>
+					<div>
+						<input tabindex="4" type="radio" name="gender" value="female" checked>Female
+					</div>
+			</div>
+			<div>
+				<p>Imushestvo</p>
+				<div>
+					<input tabindex="5" type="checkbox" name="bike" value="yes" checked>Bike
+				</div>
+				<div>
+					<input tabindex="6" type="checkbox" name="car" value="yes">Car
+				</div>
+				<div>
+					<input tabindex="7" type="checkbox" name="House" value="yes" disabled>House
+				</div>
+			</div>
+			<div>
+				<p>Another information</p>
+					<textarea tabindex="8" name="text"></textarea>
+			</div>
+			<div>
+				<p>Add photo</p>
+				<input tabindex="9" type="file" name="userfoto">
+			</div>
+			<div>
+				<p>Favorite color</p>
+				<select tabindex="10" name="color">
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+					<option selected value="Yellow">Yellow</option>
+				</select>
+			</div>
+			<div>
+			<p>Action</p>
+			<button type="submit">Send</button>
+			<button type="reset">Clear</button>	
+			</div>			
+		</form>
+	</body>
+</html>
